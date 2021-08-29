@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+input, button {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    background-color: #313131;
+    color: #fff;
+}
+input#input-field {
+    width: 46%;
+}
+
+.weather img {
+    max-width: 50px;
+}
+
+.weather h3 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.weather p {
+    margin: 0;
+    font-size: 21px;
+}
+
+.weather small {
+    font-size: 14px;
+}
+
+.weather {
+    font-weight: 800;
+    color: #fff;
+}
