@@ -33,8 +33,20 @@ input#input-field {
     width: 46%;
 }
 
+.weather {
+    font-weight: 800;
+    color: #fff;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+}
+
 .weather img {
     max-width: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
 }
 
 .weather h3 {
@@ -51,10 +63,6 @@ input#input-field {
     font-size: 14px;
 }
 
-.weather {
-    font-weight: 800;
-    color: #fff;
-}
 /* preloader */
 #loaded {
     width: 100%;
