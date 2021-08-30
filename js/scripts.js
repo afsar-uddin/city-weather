@@ -26,3 +26,7 @@ const showWeather = weather => {
     `;
     // console.log(weather)
 }
+
+const loaded = () => {
+    document.getElementById('loaded').style.display = 'none';
+}
